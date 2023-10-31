@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(200deg, #d373bb, #73137c);
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.heading {
+    color: white;
+    margin: 40px 5px 10px 5px;
+    letter-spacing: 3px;
+}
+
+.create-note-btn {
+    color: white;
+    background-color: #d373bb;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+    transition: background-color .3s ease;
+}
+
+.create-note-btn:active{
+    background-color: #5c1a4b;
+}
+
+.note-container .input-box {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px 4px #2d0d87;
+    padding: 10px 20px;
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+
+.note-container .input-box .delete-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
